@@ -1,0 +1,38 @@
+@media only screen and (min-width: 32.5em) {
+    
+    h2 {
+        font-size: 2em;
+    }
+        
+    h3 {
+        font-size: 1.5em;
+    }
+
+    header {
+        padding: 8px;
+    }
+
+    body {
+        margin: 0 auto;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    #principle1 {
+        grid-column: 1 / 1;
+    }
+
+    #principle2 {
+        grid-column: 2 / 3;
+    }
+
+    #principle3 {
+        grid-column: 3 / 4;
+    }
+}
+

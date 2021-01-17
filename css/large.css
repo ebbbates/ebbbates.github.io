@@ -1,15 +1,15 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 64em) {
 
     h1 {
         font-family: 'Raleway', sans serif;
-        font-size: 2em;
+        font-size: 2.5em;
         color: white;
         letter-spacing: 1px;
     }
 
     h2 {
         font-family: 'Raleway', sans-serif;
-        font-size: 2em;
+        font-size: 2.5em;
         letter-spacing: 1px;
         color: #444444;
     }

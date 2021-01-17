@@ -1,47 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap');
 
 h1 {
-    font-family: "Krona One", sans serif;
-}
-
-h1 {
+    font-family: 'Raleway', sans serif;
+    font-size: 1.5em;
     color: white;
+    letter-spacing: 1px;
 }
 
-h2, p, ul {
-    font-family: "Quicksand", sans serif;
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #444444;
+}
+
+p, ul {
+    font-family: 'Raleway', sans serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 125%;
+}
+
+ul {
+    color: #444444;
 }
 
 body {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
-img {
-    float: right;
-    width: 20%;
-    margin-top: 10px;
+header img {
+    float: center;
+    width: 35%;
+    margin-top: 5px;
+    margin-right: 5px;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 2px 2px 5px 2px #999;
+    box-shadow: 1px 1px 3px 1px rgb(192, 192, 192);
 }
 
-#name {
-    width: 100%;
-    background-color: #3c6e71;
+header {
+    background-color: #437575;
     text-align: center;
     padding: 8px;
-    border-radius: 8px 8px 8px 8px;
-    margin-top: 20px;
-}
-
-footer {
-    width: 100%;
-    background-color: #3c6e71;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 6px 6px 6px 6px;
+    margin-top: 10px;
 }
 
 #assigntitle {
@@ -49,15 +52,35 @@ footer {
     padding: 10px;
 }
 
-#lessonlist {
-    margin-left: 50px;
-    padding-bottom: 10px;
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #4444444b;
 }
 
-a:visited {
+#lessonlist {
+    margin-left: 50px;
+    padding: 10px;
+}
+
+footer a:visited {
     color: white;
 }
 
 ul a {
-    color: navy;
+    color: #3D6666;
 }
+
+/*    footer    */
+footer {
+    background-color: #437575;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+footer a:visited {
+    color: white;
+}
+/*    footer    */

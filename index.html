@@ -2,33 +2,35 @@
   <html lang="en-us">
   <head>
       <meta charset="UTF-8">
-      <title>Assignment Portal Home Page</title>
+      <title>Assignment Portal</title>
       <meta name="description" content="Emily Bates' assignment portal home page for WDD 230: Web Frontend Development.">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
       <link rel="stylesheet" href="css/normalize.css">
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="small.css">
-  </head>
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/medium.css">
+      <link rel="stylesheet" href="css/large.css">
+    </head>
   <body>
-    <div><img src="images/rsz_emilypic.jpg" alt="Emily's picture"></div>
-    <div id="name"><h1>Emily Bates</h1></div>
+    <header>
+        <img src="images/rsz_emilypic.jpg" alt="Emily's picture">
+        <h1>Emily Bates</h1>
+    </header>
     <div id="assigntitle">
         <h2>WDD 230: Assignment Portal</h2>
-        <hr />
     </div>
+    <hr />
     <div id="lessonlist">
         <ul>
-          <li>Lesson 02: <a href="#">Assignment Link</a></li>
+          <li>Lesson 02: <a href="lesson02/design-principles.html" target="_blank">Design Principles Document</a></li>
           <li>Lesson 03: <a href="#">Assignment Link</a></li>
           <li>Lesson 04: <a href="#">Link</a> | <a href="#">Link</a></li>
         </ul>
     </div>
     <!--I used W3schools a lot, so credit where credit it due!-->
     <footer>
-      <p>&copy; <script src="thisYear.js"></script>   |   Emily Bates   |   Utah   |  <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-      
-      <p>Last Updated: <script src="dateTime.js"></script></p>
+        <p>&copy; <script src="js/thisYear.js"></script>   |   Emily Bates   |   Utah   |  <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        
+        <p>Last Updated: <script src="js/dateTime.js"></script></p>
     </footer>
-</body>
+  </body>
 </html>  
