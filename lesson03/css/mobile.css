@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap');
+
+html, body {
+    height: 100%;
+}
+
+header, nav, main {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #4B595E;
+}
+
+header {
+    font-size: 1.5em;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    color:  #8AD0CE;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #8AD0CE;
+    font-size: 1.5em;
+}
+
+#logo {
+    width: 125px;
+}
+
+main {
+    max-width: 85%;
+}
+
+/*  color palette  */
+
+#color1 {
+    background-color: #FFE963;
+    padding: 25px;
+}
+
+#color2 {
+    background-color: #BDF7FF;
+    padding: 25px;
+}
+
+#color3 {
+    background-color: #8AD0CE;
+    padding: 25px;
+}
+
+#color4 {
+    background-color: #FF3963;
+    color: white;
+    padding: 25px;
+}
+
+#color5 {
+    background-color: #4B595E;
+    color: white;
+    padding: 25px;
+}
+
+.palette {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/*  color palette  */
+
+
+
+
+
