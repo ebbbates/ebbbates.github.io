@@ -9,7 +9,7 @@
 header, nav, main {
     max-width: 100%;
     margin: 0 auto;
-
+    margin-top: 25px;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
@@ -28,6 +28,7 @@ h2 {
     letter-spacing: 4px;
     color:  #FF3963;
     font-size: 2em;
+    margin-bottom: 25px;
 }
 
 h3 {
@@ -44,6 +45,23 @@ h3 {
 main {
     max-width: 85%;
 }
+
+/*  index  */
+
+
+
+/*  target audience  */
+
+#targetaudience, #personas {
+    margin-bottom: 25px;
+}
+
+#purpose, #domain {
+    margin-bottom: 25px;
+}
+
+/*  target audience  */
+
 
 /*  color palette  */
 
@@ -75,11 +93,69 @@ main {
 }
 
 .palette {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    display: block;
+    margin-bottom: 25px;
 }
 
 /*  color palette  */
+
+/*  typography  */
+
+#headerfont {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#h2font {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#h3font {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#navfont {
+    background-color:#8AD0CE;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#footfont {
+    background-color:#8AD0CE;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#paragraphfont {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+#typography {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+/*  typography  */
 
 header {
     display: flex;
