@@ -105,21 +105,22 @@ main {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
+    padding-bottom: -10px;
 }
 
 #h2font {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
 }
 
 #h3font {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
 }
 
 #navfont {
@@ -128,7 +129,8 @@ main {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #footfont {
@@ -137,14 +139,16 @@ main {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #paragraphfont {
     border: 1px solid black;
     width: 100%;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #typography {
@@ -199,7 +203,6 @@ nav {
 .item:hover {
     background-color: #FFE963;
 }
-
 
 footer { /* help from -- https://www.tothenew.com/blog/how-to-consistently-push-footer-at-the-bottom-using-css/ */
     background-color:#8AD0CE;
