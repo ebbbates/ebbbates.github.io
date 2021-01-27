@@ -26,14 +26,14 @@ h1 {
 h2 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 4px;
-    color:  #8AD0CE;
+    color:  #FF3963;
     font-size: 2em;
 }
 
 h3 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
-    color: #8AD0CE;
+    color: #FF3963;
     font-size: 1em;
 }
 
@@ -81,7 +81,6 @@ main {
 
 /*  color palette  */
 
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -111,10 +110,9 @@ a {
 }
 
 nav {
-    background-color:#FF3963;
+    background-color:#8AD0CE;
     padding: 0 15px;
 }
-
 
 .item {
     padding: 25px;
@@ -123,16 +121,15 @@ nav {
 }
 
 .item:hover {
-    background-color: #8AD0CE;
+    background-color: #FFE963;
 }
 
 
 footer { /* help from -- https://www.tothenew.com/blog/how-to-consistently-push-footer-at-the-bottom-using-css/ */
-    background-color:#FF3963;
+    background-color:#8AD0CE;
     color: white;
     padding: 15px;
     text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
     font-family: "Nunito", sans-serif;
