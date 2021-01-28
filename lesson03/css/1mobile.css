@@ -171,6 +171,8 @@ main {
 
 /*  typography  */
 
+/*  header and topnav  */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -213,6 +215,9 @@ nav {
 .item:hover {
     background-color: #FFE963;
 }
+
+/*  header and topnav  */
+
 
 footer { /* help from -- https://www.tothenew.com/blog/how-to-consistently-push-footer-at-the-bottom-using-css/ */
     background-color:#8AD0CE;
