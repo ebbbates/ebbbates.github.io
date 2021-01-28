@@ -35,7 +35,7 @@ h3 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #FF3963;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 h4 {
@@ -56,7 +56,6 @@ main {
 /*  index  */
 
 
-
 /*  target audience  */
 
 #targetaudience, #personas {
@@ -64,6 +63,10 @@ main {
 }
 
 #purpose, #domain {
+    margin-bottom: 25px;
+}
+
+#persona1, #persona2 {
     margin-bottom: 25px;
 }
 
