@@ -38,6 +38,13 @@ h3 {
     font-size: 1em;
 }
 
+h4 {
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 2px;
+    color:  #4B595E;
+    font-size: 2em;
+}
+
 #logo {
     width: 125px;
 }
