@@ -6,18 +6,10 @@
     margin: 0;
 }
 
-header {
+header, nav {
     max-width: 100%;
     margin: 0 auto;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #4B595E;
-}
-
-nav {
-    max-width: 100%;
-    margin: 0 auto;
+    margin-top: 25px;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
@@ -110,6 +102,7 @@ nav {
 
 .towntitlepage {
     text-align: center;
+    padding-top: 25px;
 }
 
 .weathersummary {
