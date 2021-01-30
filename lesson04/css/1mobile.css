@@ -100,28 +100,40 @@ nav {
     font-family: "Nunito", sans-serif;
 }
 
+.towntitlepage {
+    text-align: center;
+}
+
 .weathersummary {
     background-color: rgba(0,0,0,0.1);
     padding: 25px;
     margin-bottom: 10px;
+    border-style: dashed;
+    border-width: 1px;
 }
 
 .dayforecast {
     background-color: rgba(0,0,0,0.1);
     padding: 25px;
     margin-bottom: 10px;
+    border-style: dashed;
+    border-width: 1px;
 }
 
 .featarticle {
     background-color: rgba(0,0,0,0.1);
     padding: 25px;
     margin-bottom: 10px;
+    border-style: dashed;
+    border-width: 1px;
 }
 
 .informationbar {
     background-color: rgba(0,0,0,0.1);
     padding: 25px;
     margin-bottom: 10px;
+    border-style: dashed;
+    border-width: 1px;
 }
 
 
@@ -129,6 +141,8 @@ footer {
     background-color:#8AD0CE;
     color: white;
     padding: 15px;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
     bottom: 0;
     font-family: "Nunito", sans-serif;
