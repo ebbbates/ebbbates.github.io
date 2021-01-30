@@ -21,11 +21,6 @@
         font-size: 18px;
     }
 
-    .item {
-        padding: 25px;
-        width: auto;
-    }
-
     .palette {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
