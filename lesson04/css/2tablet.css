@@ -1,5 +1,21 @@
 @media only screen and (min-width: 32.5em) {
 
+    nav button {
+        display: none;
+    }
+
+    nav ul.menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+    .item {
+        border: none;
+    }
+
     h1 {
         font-size: 4em;
     }

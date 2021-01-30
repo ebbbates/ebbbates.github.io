@@ -21,6 +21,7 @@ h1 {
     letter-spacing: 4px;
     color:  #4B595E;
     font-size: 3em;
+    text-align: center;
 }
 
 h2 {
@@ -58,17 +59,13 @@ a {
     text-decoration: none;
 }
 
+
+
 .menu {
     list-style-type: none;
 }
 
-.menu {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-}
+
 
 #site-title {
     padding: 25px;
@@ -76,13 +73,30 @@ a {
 
 nav {
     background-color:#8AD0CE;
-    padding: 0 15px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    padding: 25px;
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav ul.menu {
+    display: none;
 }
 
 .item {
-    padding: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     width: 100%;
     text-align: center;
+    border-top: 1px solid white;
 }
 
 .item:hover {
