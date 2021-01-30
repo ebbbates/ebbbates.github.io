@@ -21,7 +21,6 @@ h1 {
     letter-spacing: 4px;
     color:  #4B595E;
     font-size: 3em;
-    text-align: center;
 }
 
 h2 {
@@ -59,16 +58,14 @@ a {
     text-decoration: none;
 }
 
-
-
 .menu {
     list-style-type: none;
 }
 
-
-
 #site-title {
-    padding: 25px;
+    padding-left: 25px;
+    text-align: center;
+    line-height: 15px;
 }
 
 nav {
