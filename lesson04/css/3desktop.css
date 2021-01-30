@@ -1,0 +1,70 @@
+@media only screen and (min-width: 64em) {
+
+    .content {
+        display: block;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .palette {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 25px;
+    }
+
+    #headerfont {
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+    
+    #h2font {
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+    
+    #h3font {
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+    
+    #navfont {
+        background-color:#8AD0CE;
+        color: white;
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+    
+    #footfont {
+        background-color:#8AD0CE;
+        color: white;
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+    
+    #paragraphfont {
+        border: 1px solid black;
+        width: 33.33%;
+        text-align: center;
+    }
+
+}

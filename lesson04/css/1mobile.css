@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header, nav, main {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #4B595E;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    color:  #4B595E;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    color:  #FF3963;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #FF3963;
+    font-size: 1.5em;
+}
+
+#logo {
+    width: 125px;
+}
+
+main {
+    max-width: 85%;
+}
+
+/*  index  */
+
+
+/*  target audience  */
+
+#targetaudience, #personas {
+    margin-bottom: 25px;
+}
+
+#purpose, #domain {
+    margin-bottom: 25px;
+}
+
+#persona1, #persona2 {
+    margin-bottom: 25px;
+}
+
+/*  target audience  */
+
+
+/*  color palette  */
+
+#color1 {
+    background-color: #FFE963;
+    padding: 25px;
+}
+
+#color2 {
+    background-color: #BDF7FF;
+    padding: 25px;
+}
+
+#color3 {
+    background-color: #8AD0CE;
+    padding: 25px;
+}
+
+#color4 {
+    background-color: #FF3963;
+    color: white;
+    padding: 25px;
+}
+
+#color5 {
+    background-color: #4B595E;
+    color: white;
+    padding: 25px;
+}
+
+.palette {
+    display: block;
+    margin-bottom: 25px;
+}
+
+/*  color palette  */
+
+/*  typography  */
+
+#headerfont {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: -10px;
+}
+
+#h2font {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#h3font {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#navfont {
+    background-color:#8AD0CE;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footfont {
+    background-color:#8AD0CE;
+    color: white;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#paragraphfont {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#typography {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+/*  typography  */
+
+/*  header and topnav  */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#site-title {
+    padding: 25px;
+}
+
+nav {
+    background-color:#8AD0CE;
+    padding: 0 15px;
+}
+
+.item {
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.item:hover {
+    background-color: #FFE963;
+}
+
+/*  header and topnav  */
+
+
+footer { /* help from -- https://www.tothenew.com/blog/how-to-consistently-push-footer-at-the-bottom-using-css/ */
+    background-color:#8AD0CE;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
