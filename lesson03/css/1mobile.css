@@ -63,6 +63,10 @@ main {
     margin-bottom: 25px;
 }
 
+#scenarios {
+    margin-bottom: 25px;
+}
+
 /*  target audience  */
 
 
@@ -98,6 +102,7 @@ main {
 .palette {
     display: block;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 /*  color palette  */
