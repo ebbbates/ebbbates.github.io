@@ -1,3 +1,3 @@
-let d = new Date();
-let currYear = d.getFullYear();
+let t = new Date();
+let currYear = t.getFullYear();
 document.write(currYear);
