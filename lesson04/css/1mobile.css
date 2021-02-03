@@ -20,7 +20,7 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 4px;
     color:  #4B595E;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 h2 {
@@ -63,13 +63,20 @@ a {
 }
 
 #site-title {
-    padding-left: 25px;
     text-align: center;
     line-height: 10px;
 }
 
+#site-title p {
+    font-size: 1em;
+}
+
 nav {
     background-color:#8AD0CE;
+}
+
+nav a {
+    font-size: 12px;
 }
 
 nav button {
@@ -102,13 +109,14 @@ nav ul.menu {
 
 /*  header and topnav  */
 
-.content {
+main {
     width: 85%;
+    max-width: 1080px;
     margin: 0 auto;
     margin-bottom: 40px;
 }
 
-.content p {
+main p {
     font-family: "Nunito", sans-serif;
 }
 
@@ -151,6 +159,7 @@ footer {
     color: white;
     padding: 15px;
     width: 90%;
+    max-width: 1080px;
     margin: 0 auto;
     text-align: center;
     bottom: 0;
