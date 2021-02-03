@@ -37,4 +37,8 @@
         width: auto;
     }
 
+    #site-title {
+        padding-left: 25px;
+    }
+
 }
