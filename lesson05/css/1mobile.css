@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header, nav {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #4B595E;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    color:  #4B595E;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    color:  #FF3963;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #FF3963;
+    font-size: 1.5em;
+}
+
+#logo {
+    width: 125px;
+}
+
+/*  index  */
+
+/*  header and topnav  */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+#site-title {
+    text-align: center;
+    line-height: 10px;
+}
+
+#site-title p {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+nav {
+    background-color:#8AD0CE;
+}
+
+nav a {
+    font-size: 12px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+    padding: 25px;
+}
+
+nav ul li a {
+    display: block;
+}
+
+nav ul.menu {
+    display: none;
+}
+
+.item {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+.item:hover {
+    background-color: #FFE963;
+}
+
+/*  header and topnav  */
+
+main {
+    width: 85%;
+    max-width: 1020px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main p {
+    font-family: "Nunito", sans-serif;
+}
+
+.towntitlepage {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.weathersummary {
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px dashed;
+}
+
+.dayforecast {
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px dashed;
+}
+
+.featarticle {
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px dashed;
+}
+
+.informationbar {
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    margin-bottom: 10px;
+    border: 1px dashed;
+}
+
+footer {
+    background-color:#8AD0CE;
+    color: white;
+    padding: 15px;
+    width: 90%;
+    max-width: 1020px;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 0;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
