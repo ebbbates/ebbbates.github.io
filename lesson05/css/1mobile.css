@@ -126,11 +126,27 @@ main p {
     padding-top: 25px;
 }
 
+#prestonhero {
+    width: 100%;
+}
+
+.herodiv {
+    position: relative;
+}
+
 .weathersummary {
-    background-color: rgba(0,0,0,0.1);
-    padding: 25px;
-    margin-bottom: 10px;
-    border: 1px dashed;
+    text-align: center;
+    position: absolute;
+    background-color: #8AD0CE;
+    opacity: 85%;
+    top: 25px;
+    left: 50px;
+    padding: 15px;
+}
+
+.weathersummary table {
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
 }
 
 .dayforecast {
