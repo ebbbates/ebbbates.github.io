@@ -71,7 +71,7 @@ a {
 
 #site-title {
     text-align: center;
-    line-height: 10px;
+    line-height: 25px;
 }
 
 #site-title p {
@@ -178,7 +178,8 @@ table {
     background-color: #BDF7FF;
     padding: 25px;
     margin-bottom: 10px;
-    border: 1px dashed;
+    height: 250px;
+    line-height: 1.5em;
 }
 
 .featarticle h4 {
