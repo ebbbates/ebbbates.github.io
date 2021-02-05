@@ -38,6 +38,12 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #4B595E;
+}
+
 #logo {
     width: 125px;
 }
@@ -139,9 +145,10 @@ main p {
     position: absolute;
     background-color: #8AD0CE;
     opacity: 90%;
-    top: 25px;
-    left: 50px;
+    top: 20px;
+    left: 35px;
     padding: 20px;
+    margin-bottom: 25px;
     box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, 0.2);
 }
 
@@ -157,15 +164,12 @@ main p {
     color: white;
 }
 
-table {
-    margin: 0 auto;
+.dayforecast {
+    display: none;
 }
 
-.dayforecast {
-    background-color: rgba(0,0,0,0.1);
-    padding: 25px;
-    margin-bottom: 10px;
-    border: 1px dashed;
+table {
+    margin: 0 auto;
 }
 
 .featarticle {
