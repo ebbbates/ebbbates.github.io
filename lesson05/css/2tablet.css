@@ -42,4 +42,23 @@
         padding-left: 25px;
     }
 
+    .fivedayheading {
+        display: block;
+    }
+
+    .dayforecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        text-align: center;
+        padding: 25px;
+        color: #4B595E;
+    }
+
+    .dayofweek {
+        font-family: "Bebas Neue", sans-serif;
+        letter-spacing: 2px;
+        color: #4B595E;
+        font-size: 1.5em;
+}  
+
 }

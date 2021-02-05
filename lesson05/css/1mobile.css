@@ -42,6 +42,7 @@ h4 {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 2px;
     color: #4B595E;
+    font-size: 1.5em;
 }
 
 #logo {
@@ -138,6 +139,7 @@ main p {
 
 .herodiv {
     position: relative;
+    padding-bottom: 25px;
 }
 
 .weathersummary {
@@ -164,8 +166,8 @@ main p {
     color: white;
 }
 
-.dayforecast {
-    display: none;
+.cleared {
+    clear: left;
 }
 
 table {
@@ -173,10 +175,18 @@ table {
 }
 
 .featarticle {
-    background-color: rgba(0,0,0,0.1);
+    background-color: #BDF7FF;
     padding: 25px;
     margin-bottom: 10px;
     border: 1px dashed;
+}
+
+.featarticle h4 {
+    padding: 10px;
+}
+
+#rodeo {
+    float: right;
 }
 
 .informationbar {
