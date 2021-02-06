@@ -154,7 +154,6 @@ main p {
     box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, 0.2);
 }
 
-
 .weathersummary table {
     font-family: "Nunito", sans-serif;
     width: 80%;
@@ -163,22 +162,17 @@ main p {
     color: #4B595E;
 }
 
-.weathersummary h3 {
-    color: white;
-}
-
-.cleared {
-    clear: left;
+.fivedayforecast {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .dayforecast {
-    width: 50%;
-    margin: 0 auto;
+    display: inline-block;
 }
 
-.forecasttable {
-    border: 1px solid black;
-    border-spacing: 25px;
+.weathersummary h3 {
+    color: white;
 }
 
 .featarticle {
