@@ -178,11 +178,7 @@ main p {
 
 .forecasttable {
     border: 1px solid black;
-}
-
-.forecasttable td {
-    padding-left: 10px;
-    padding-right: 10px;
+    border-spacing: 25px;
 }
 
 .featarticle {
