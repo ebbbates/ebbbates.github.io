@@ -42,31 +42,62 @@
         padding-left: 25px;
     }
 
+    .weathersummary table {
+        font-size: 1em;
+    }
+
     .fivedayheading {
         display: block;
+        text-align: left;
+        padding-left: 20px;
     }
 
     .fivedayforecast {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        text-align: center;
-        padding: 25px;
-        color: #4B595E;
-    }
-
-    .weathersummary {
-        text-align: center;
-        position: absolute;
-        top: 25px;
-        left: 50px;
         padding: 20px;
     }
 
-    .dayofweek {
-        font-family: "Bebas Neue", sans-serif;
-        letter-spacing: 2px;
-        color: #4B595E;
-        font-size: 1.5em;
-}  
+    .eachdayforecast {
+        font-size: 1em;
+    }
+
+    .weathericon {
+        width: 5em;
+    }
+
+    .featarticle {
+        padding: 35px;
+        margin-bottom: 10px;
+        line-height: 1.5em;
+        overflow: auto;
+    }
+    
+    .featarticle h4 {
+        padding-bottom: 15px;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #rodeo img {
+        width: 25%;
+        float: right;
+        margin-left: 20px;
+    }
+
+
+
+    .informationbar {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        align-content: center;
+    }
+
+    .contactdetails {
+        grid-column: 2 / 3;
+    }
+
+    .map {
+        grid-column: 1 / 2;
+        margin-right: 10px;
+    }
 
 }

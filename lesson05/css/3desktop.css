@@ -24,8 +24,34 @@
         padding: 25px;
     }
 
-    
+    .weathersummary {
+        text-align: center;
+        position: absolute;
+        opacity: 95%;
+        top: 25px;
+        left: 50px;
+        padding: 20px;
+        margin-bottom:25px;
+        box-shadow: 1px 1px 3px 1px rgb(0, 0, 0, 0.2);
+    }
 
+    .weathersummary table {
+        font-size: 1em;
+        width: 80%;
+        height: 80%;
+    }
 
+    .fivedayforecast {
+        padding: 25px;
+    }
+
+    .weathericon {
+        width: 5em;
+    }
+
+    .featarticle h4 {
+        padding-bottom: 15px;
+        text-align: left;
+    }
 
 }
