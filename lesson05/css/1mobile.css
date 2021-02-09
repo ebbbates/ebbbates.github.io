@@ -126,6 +126,10 @@ nav ul.menu {
     background-color: #FFE963;
 }
 
+.active {
+    background-color: #FFE963;
+}
+
 /*  header and topnav  */
 
 
@@ -284,5 +288,5 @@ footer {
 
 
 .pancakes {
-    display: inline-block;
+    display: block;
 }
