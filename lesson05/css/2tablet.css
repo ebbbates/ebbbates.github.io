@@ -88,15 +88,17 @@
     .informationbar {
         display: grid;
         grid-template-columns: 1.5fr 1fr;
-        align-content: center;
+        align-items: center;
     }
 
     .contactdetails {
         grid-column: 2 / 3;
+        grid-row: 1 / 2;
     }
 
     .map {
         grid-column: 1 / 2;
+        grid-row: 1 / 2;
         margin-right: 10px;
     }
 
