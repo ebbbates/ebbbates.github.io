@@ -64,7 +64,7 @@ main p {
 
 /*  header and topnav  */
 
-header {
+.logoandsite {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -250,6 +250,11 @@ nav ul.menu {
 .informationbar {
     background-color: #8AD0CE;
     padding: 25px;
+    font-size: 12px;
+}
+
+.contactdetails {
+    margin-bottom: 10px;
 }
 
 .contacticons {
@@ -286,7 +291,15 @@ footer {
     line-height: 20px;
 }
 
+.hidden {
+    display: none;
+}
 
 .pancakes {
-    display: block;
+    text-align: center;
+}
+
+#pancakebanner {
+    width: 275px;
+    margin: 0 auto;
 }
