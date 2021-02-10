@@ -291,11 +291,7 @@ footer {
     line-height: 20px;
 }
 
-.hidden {
-    display: none;
-}
-
-.pancakes {
+#pancakes {
     text-align: center;
 }
 

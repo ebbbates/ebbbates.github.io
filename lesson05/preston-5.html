@@ -6,7 +6,7 @@
         <meta name="description" content="Emily's website planning document.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link rel="shortcut icon" href="/images/favicon.ico">
-        <script src="js/toggleMenu.js"></script>
+        
         <link rel="stylesheet" href="../css/normalize.css">
         <link rel="stylesheet" href="css/1mobile.css">
         <link rel="stylesheet" href="css/2tablet.css">
@@ -15,7 +15,7 @@
 
     <body>
         <header>
-            <div class="pancakes hidden">
+            <div id="pancakes">
                 <img id="pancakebanner" src="images/Banner.png">
             </div>
             <div class="logoandsite">
@@ -77,31 +77,31 @@
             <div class="fivedayforecast"> 
                 <div class="eachdayforecast">
                     <p>Friday</p>
-                    <img src="images/Snow.png" class="weathericon">
+                    <img src="images/Snow.png" class="weathericon" alt="snow icon">
                     <p>Low: 25&#176;</p><br>
                     <p>High: 33&#176;</p>
                 </div>  
                 <div class="eachdayforecast">
                     <p>Saturday</p>
-                    <img src="images/Cloudy.png" class="weathericon">
+                    <img src="images/Cloudy.png" class="weathericon alt="cloud icon">
                     <p>Low: 25&#176;</p><br>
                     <p>High: 33&#176;</p>
                 </div>   
                 <div class="eachdayforecast">
                     <p>Sunday</p>
-                    <img src="images/Sunny.png" class="weathericon">
+                    <img src="images/Sunny.png" class="weathericon" alt="sun icon">
                     <p>Low: 25&#176;</p><br>
                     <p>High: 33&#176;</p>
                 </div>  
                 <div class="eachdayforecast">
                     <p>Monday</p>
-                    <img src="images/Rain.png" class="weathericon">
+                    <img src="images/Rain.png" class="weathericon alt="rain icon">
                     <p>Low: 25&#176;</p><br>
                     <p>High: 33&#176;</p>
                 </div> 
                 <div class="eachdayforecast">
                     <p>Tuesday</p>
-                    <img src="images/Snow.png" class="weathericon">
+                    <img src="images/Snow.png" class="weathericon alt="snow icon">
                     <p>Low: 25&#176;</p><br>
                     <p>High: 33&#176;</p>
                 </div>                
@@ -135,5 +135,7 @@
             <p><script src="js/websiteDate.js"></script></p>
             <!--https://www.w3schools.com/js/js_date_methods.asp-->
         </footer>
+        <script src="js/toggleMenu.js"></script>
+        <script src="js/hideBanner.js"></script>
     </body>
 </html>
