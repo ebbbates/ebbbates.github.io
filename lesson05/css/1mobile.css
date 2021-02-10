@@ -123,11 +123,11 @@ nav ul.menu {
 }
 
 .item:hover {
-    background-color: #FFE963;
+    background-color: #348381;
 }
 
 .active {
-    background-color: #FFE963;
+    background-color: #348381;
 }
 
 /*  header and topnav  */
